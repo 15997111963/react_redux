@@ -3,7 +3,7 @@
 > 个人默认喜欢用BrowserRouter history模式 可能某些场景需要服务端支持和Nginx的一些location配置
 
 - 习惯了函数体的组件 默认用的是`hook`做的演示 class组件初始构建繁琐 可以自行替换
-- 因为最近又了[Ant Design Mobile](https://mobile.ant.design/index-cn)用过还不错(基于移动端) 没有引入任何ui框架 可自行选择 
+- 因为最近用[Ant Design Mobile](https://mobile.ant.design/index-cn)比较多 还不错(基于移动端) 没有引入任何ui框架 可自行选择 
 - 这里没有吧`axios`或是`fetch`等请求库的二次封装写进去 考虑到不同项目对于拦截器业务的处理 还有各种header 重连机制等等的不同 就不善做主张放进去了
 - 写这个的目的是为了能够快速的开始下一个项目 最近项目有点多 靠copy还需要删原来的代码 故专门搭了一遍
 - 对`actions`也简单进行了模块划分对于构建可以参考`store`文件夹和root的`index.js`文件
